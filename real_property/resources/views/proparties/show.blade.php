@@ -38,7 +38,7 @@
             <!-- Card Header - Dropdown -->
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <span class="float-left">
-                    <h2 style="color:#ff9933;">
+                    <h2 style="color:#ff7f50;">
                         {{ isset($title) ? $title : 'Proparty' }}
                     </h2>
                 </span>  

@@ -71,7 +71,7 @@
 
                                                 <div class="btn-group btn-group-xs pull-right" role="group">
                                                     <a href="{{ route('rooms.room.show', $room->id ) }}" class="btn btn-info" title="Show Room">
-                                                        <span class="fa fa-open" aria-hidden="true"></span>
+                                                        <span class="fa fa-list-ul" aria-hidden="true"></span>
                                                     </a>
                                                     <a href="{{ route('rooms.room.edit', $room->id ) }}" class="btn btn-primary" title="Edit Room">
                                                         <span class="fa fa-pencil-alt" aria-hidden="true"></span>

@@ -25,7 +25,7 @@
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <div class="col-xl-11 col-lg-11">
                     <span class="pull-left">
-                        <h2 style="color:#ff9933;">
+                        <h2 style="color:#ff7f50;">
                             {{ isset($propartyType->type_name) ? $propartyType->type_name : 'Proparty Type' }}
                         </h2>
                     </span>

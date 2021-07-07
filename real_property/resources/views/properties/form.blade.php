@@ -77,6 +77,13 @@
             </div>
         </div>
     </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btn btn-org" type="submit" value="Update">
+            </div>
+        </div>
+    </div>
 
     <div class="col-md-12">
         <h4 class="color-b">Property Address</h4><hr color="orange"/>
@@ -204,6 +211,13 @@
                 </div>
 
                 {!! $errors->first('display_address', '<p class="help-block">:message</p>') !!}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btn btn-org" type="submit" value="Update">
             </div>
         </div>
     </div>
@@ -447,6 +461,13 @@
             </table>
         </div>
     </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btn btn-org" type="submit" value="Update">
+            </div>
+        </div>
+    </div>
 
     <div class="col-md-12">
         <h4 class="color-b">Internal External Structure</h4><hr color="orange"/>
@@ -603,6 +624,13 @@
             </div>
         </div>
     </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btn btn-org" type="submit" value="Update">
+            </div>
+        </div>
+    </div>
 
     <div class="col-md-12">
         <h4 class="color-b">Price & Terms</h4><hr color="orange"/>
@@ -718,6 +746,13 @@
                 </label>
 
                 {!! $errors->first('admin_fee_flag', '<p class="help-block">:message</p>') !!}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="btn btn-org" type="submit" value="Update">
             </div>
         </div>
     </div>

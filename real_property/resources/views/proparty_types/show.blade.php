@@ -39,7 +39,7 @@
             <!-- Card Header - Dropdown -->
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <span class="float-left">
-                    <h2 style="color:#ff9933;">
+                    <h2 style="color:#ff7f50;">
                         {{ isset($propartyType->type_name) ? $propartyType->type_name : 'Proparty Type' }}
                     </h2>
                 </span>  
@@ -48,7 +48,7 @@
             <div class="card-body">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <h3>Proparty Type Name -> <span style="color:#ff9933;">{{ $propartyType->type_name }}</span></h3>
+                            <h3>Proparty Type Name -> <span style="color:#ff7f50;">{{ $propartyType->type_name }}</span></h3>
                         </div>
                     </div>
             </div>

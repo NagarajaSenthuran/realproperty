@@ -11,7 +11,7 @@
 body{
     margin: 0;
     padding: 20px;
-    background-color:#ff9933;
+    background-color:#ff7f50;
     font-family: arial;
   height: 700px
 }
@@ -23,7 +23,7 @@ body{
   padding: 10px 0;
   font-size: 210%;
   text-transform: capitalize;
-  color:#ff9933;
+  color:#ff7f50;
   font-weight: 700;
   background-color:#fff;
   width:100%;
@@ -36,7 +36,7 @@ body{
 }
 .info a:after{
   content:" | ";
-  color:#ff9933
+  color:#ff7f50
 }
 
 .info a:last-of-type:after{content:""}
@@ -50,7 +50,7 @@ body{
     width: 250px;
     height: 80px;
     line-height: 80px;
-    color:#ff9933;
+    color:#ff7f50;
     background-color: #fff;
     font-size: 280%;
     position: absolute;

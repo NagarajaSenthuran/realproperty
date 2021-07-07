@@ -74,7 +74,7 @@
                                                 <div class="btn-group btn-group-xs pull-right" role="group">
                                                     <a href="{{ route('owners.owner.show', $owner->id ) }}"
                                                         class="btn btn-info" title="Show Owner">
-                                                        <span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+                                                        <span class="fa fa-list-ul" aria-hidden="true"></span>
                                                     </a>
                                                     <a href="{{ route('owners.owner.edit', $owner->id ) }}"
                                                         class="btn btn-primary" title="Edit Owner">

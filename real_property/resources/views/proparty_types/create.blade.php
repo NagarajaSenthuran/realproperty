@@ -19,7 +19,7 @@
             <!-- Card Header - Dropdown -->
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <div class="col-xl-11 col-lg-11">
-                    <h2 class="m-0 font-weight-bold text-center" style="color:#ff9933;">Create New Proparty Type</h2>
+                    <h2 class="m-0 font-weight-bold text-center" style="color:#ff7f50;">Create New Proparty Type</h2>
                     @if(Session::has('success_message'))
                     <div class="alert alert-success">
                         <span class="fa fa-ok"></span>

@@ -24,26 +24,24 @@ class UserController extends Controller
             'email' => ['required', 'string', 'email', 'max:255'],
             'phone' => ['required', 'string', 'min:1'],
             'address' => ['required', 'string', 'min:1'],
-            'image' => ['required'],
+            'image' => ['nullable'],
         ]);
 
         $email = Auth::user()->email;
 
-        $image = $request->file('image');
+        if(isset($request['image']))
+        {
+            $image = $request->file('image');
 
-        $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension();
-        Image::make($image)->resize(700,400)->save('images/agent/'.$name_gen);
+            $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension();
+            Image::make($image)->resize(700,400)->save('images/agent/'.$name_gen);
       
-        $last_img = 'images/agent/'.$name_gen;
-
-        // $user = new User([
-        //     'name' => $request->get('name'),
-        //     'email' => $request->get('email'),
-        //     'phone' => $request->get('phone'),
-        //     'address' => $request->get('address'),
-        //     'image' => $last_img
-
-        // ]);
+            $last_img = 'images/agent/'.$name_gen;
+        }
+        else{
+            $last_img = 'boxroomstyle/images/avatar.png';
+        }
+        
         DB::table('users')->where('email', '=', $email)
             ->update(['name' => $request->get('name'),
                       'email' => $request->get('email'),
